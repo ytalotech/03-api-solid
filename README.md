@@ -41,3 +41,10 @@ npm i fastify
 
 npm run start:dev
 npm run build
+
+
+# FIxar as versões dos pacotes
+save-exact = true
+
+
+renovatebote no github, fica tendnado atualizar as dependencias do nosso projeto
