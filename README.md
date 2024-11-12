@@ -39,6 +39,12 @@ npx tsc --init
 
 npm i fastify
 
+npm i dotenv
+
+conseguimos acessar no terminal: process.env.NODE_ENV
+
+npm i zod
+
 npm run start:dev
 npm run build
 
@@ -48,3 +54,6 @@ save-exact = true
 
 
 renovatebote no github, fica tendnado atualizar as dependencias do nosso projeto
+
+
+Posso rodar esse comando no terminal para teste: http localhost:3333/
