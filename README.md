@@ -57,3 +57,17 @@ renovatebote no github, fica tendnado atualizar as dependencias do nosso projeto
 
 
 Posso rodar esse comando no terminal para teste: http localhost:3333/
+
+npm i eslint @rocketseat/eslint-config -D
+
+
+mais criar minha propria eslint.config.js:
+
+npm i eslint -D
+
+npx eslint --init
+
+
+
+
+npm run eslint:fix
