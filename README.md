@@ -87,3 +87,10 @@ Esse prisma ainda nao é o cara que faz acesso direto ao banco
 - npx prisma generate
 
 - npm i @prisma/client
+
+docker run --name api-solid-pg -e POSTGRESQL_USERNAME=docker -e POSTGRESQL_PASSWORD=docker -e POSTGRESQL_DATABASE=apisolid -p 5433:5432  bitnami/postgresql
+
+
+npx prisma migrate dev
+
+npx prisma studio
