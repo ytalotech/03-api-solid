@@ -33,6 +33,10 @@ GymPass style app
 - [ ] O usuário deve ser identificado por um JWT (JSON Web Token);
 
 
+
+================================================================================================================================
+
+
 npm init -y
 npm i typescript @types/node tsx tsup -D
 npx tsc --init
@@ -71,3 +75,15 @@ npx eslint --init
 
 
 npm run eslint:fix
+
+
+npx prisma -h
+
+Esse prisma ainda nao é o cara que faz acesso direto ao banco
+- npm i prisma -D
+
+- npx prisma init
+
+- npx prisma generate
+
+- npm i @prisma/client
