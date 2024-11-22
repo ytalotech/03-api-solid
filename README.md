@@ -104,3 +104,6 @@ docker compose up -d
 docker compose stop
 
 docker compose down
+
+
+npm run start:dev
