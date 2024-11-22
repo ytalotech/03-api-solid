@@ -91,7 +91,11 @@ Esse prisma ainda nao é o cara que faz acesso direto ao banco
 docker run --name api-solid-pg -e POSTGRESQL_USERNAME=docker -e POSTGRESQL_PASSWORD=docker -e POSTGRESQL_DATABASE=apisolid -p 5433:5432  bitnami/postgresql
 
 
-npx prisma migrate dev
+Copara os arquivo de migração e faz as alteracoes
+- npx prisma migrate dev
+
+Pega todas as migrates criada e gera as tabelas, não procura por novas alterações...
+- npx prisma migrate deploy
 
 npx prisma studio
 
