@@ -110,3 +110,11 @@ npm run start:dev
 
 npm i bcryptjs
 npm i --save-dev @types/bcryptjs
+
+
+// SOLID
+// Single Responsibility Principle
+// Open/Closed Principle
+// Liskov Substitution Principle
+// Interface Segregation Principle
+// Dependency Inversion Principle
