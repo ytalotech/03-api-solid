@@ -94,3 +94,9 @@ docker run --name api-solid-pg -e POSTGRESQL_USERNAME=docker -e POSTGRESQL_PASSW
 npx prisma migrate dev
 
 npx prisma studio
+
+docker compose up -d
+
+docker compose stop
+
+docker compose down
