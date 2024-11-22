@@ -107,3 +107,6 @@ docker compose down
 
 
 npm run start:dev
+
+npm i bcryptjs
+npm i --save-dev @types/bcryptjs
