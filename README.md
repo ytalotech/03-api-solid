@@ -118,3 +118,7 @@ npm i --save-dev @types/bcryptjs
 // Liskov Substitution Principle
 // Interface Segregation Principle
 // Dependency Inversion Principle
+
+
+implementar o que falta da interface
+control + .
