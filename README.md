@@ -122,3 +122,7 @@ npm i --save-dev @types/bcryptjs
 
 implementar o que falta da interface
 control + .
+
+
+realizar testes e adicionando plugin para resolver os paths:
+npm i vitest vite-tsconfig-paths -D
