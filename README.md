@@ -128,3 +128,5 @@ para navegar pelo vitest ui:
 Vitest UI
 
 npm i -D @vitest/ui
+
+cada teste deve ser unico e nao aproveitar o outro
