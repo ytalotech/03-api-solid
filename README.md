@@ -130,3 +130,7 @@ Vitest UI
 npm i -D @vitest/ui
 
 cada teste deve ser unico e nao aproveitar o outro
+
+factore pattern: irei usar onde preciso fazer instancias de classes. Para não ficar instanciando em varios arquivos a mesma instancia. Ela não tem regra de negocio.
+
+facade pattern
