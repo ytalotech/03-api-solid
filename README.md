@@ -115,3 +115,9 @@ realizar testes e adicionando plugin para resolver os paths:
 npm i vitest vite-tsconfig-paths -D
 
 teste unitario nunca vai acessar banco de dados ou camadas externas a nossa aplicação
+
+npm run test
+
+npm run test:watch
+
+npm run test:coverage
