@@ -121,3 +121,10 @@ npm run test
 npm run test:watch
 
 npm run test:coverage
+
+npm run test:ui
+
+para navegar pelo vitest ui:
+Vitest UI
+
+npm i -D @vitest/ui
