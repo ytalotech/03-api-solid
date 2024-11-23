@@ -6,6 +6,7 @@
     "camelcase": "off",
     "no-unused-vars": "off",
     "no-useless-constructor": 0,
-    "@typescript-eslint/no-explicit-any": ["off"]
+    "@typescript-eslint/no-explicit-any": ["off"],
+    "quotes": ["error", "single"] // Exige aspas simples
   }
 } 
