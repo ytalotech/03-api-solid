@@ -15,7 +15,6 @@ GymPass style app
 - [ ] Deve ser possível validar o check-in de um usuário;
 - [ ] Deve ser possível cadastrar uma academia;
 
-
 # RNs (Regras de negócio)
 
 - [ ] O usuário não deve poder se cadastrar com um e-mail duplicado;
@@ -32,10 +31,7 @@ GymPass style app
 - [ ] Todas as listas de dados precisam estar paginadas com 20 itens por página;
 - [ ] O usuário deve ser identificado por um JWT (JSON Web Token);
 
-
-
 ================================================================================================================================
-
 
 npm init -y
 npm i typescript @types/node tsx tsup -D
@@ -52,18 +48,15 @@ npm i zod
 npm run start:dev
 npm run build
 
-
 # FIxar as versões dos pacotes
+
 save-exact = true
 
-
 renovatebote no github, fica tendnado atualizar as dependencias do nosso projeto
-
 
 Posso rodar esse comando no terminal para teste: http localhost:3333/
 
 npm i eslint @rocketseat/eslint-config -D
-
 
 mais criar minha propria eslint.config.js:
 
@@ -71,15 +64,12 @@ npm i eslint -D
 
 npx eslint --init
 
-
-
-
 npm run eslint:fix
-
 
 npx prisma -h
 
 Esse prisma ainda nao é o cara que faz acesso direto ao banco
+
 - npm i prisma -D
 
 - npx prisma init
@@ -88,13 +78,14 @@ Esse prisma ainda nao é o cara que faz acesso direto ao banco
 
 - npm i @prisma/client
 
-docker run --name api-solid-pg -e POSTGRESQL_USERNAME=docker -e POSTGRESQL_PASSWORD=docker -e POSTGRESQL_DATABASE=apisolid -p 5433:5432  bitnami/postgresql
-
+docker run --name api-solid-pg -e POSTGRESQL_USERNAME=docker -e POSTGRESQL_PASSWORD=docker -e POSTGRESQL_DATABASE=apisolid -p 5433:5432 bitnami/postgresql
 
 Copara os arquivo de migração e faz as alteracoes
+
 - npx prisma migrate dev
 
 Pega todas as migrates criada e gera as tabelas, não procura por novas alterações...
+
 - npx prisma migrate deploy
 
 npx prisma studio
@@ -105,12 +96,10 @@ docker compose stop
 
 docker compose down
 
-
 npm run start:dev
 
 npm i bcryptjs
 npm i --save-dev @types/bcryptjs
-
 
 // SOLID
 // Single Responsibility Principle
@@ -119,10 +108,10 @@ npm i --save-dev @types/bcryptjs
 // Interface Segregation Principle
 // Dependency Inversion Principle
 
-
 implementar o que falta da interface
 control + .
 
-
 realizar testes e adicionando plugin para resolver os paths:
 npm i vitest vite-tsconfig-paths -D
+
+teste unitario nunca vai acessar banco de dados ou camadas externas a nossa aplicação
