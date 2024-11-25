@@ -11,7 +11,7 @@ GymPass style app
 - [ ] Deve ser possível o usuário obter seu historico de check-ins;
 - [ ] Deve ser possível o usuário buscar academias próximas;
 - [ ] Deve ser possível o usuário buscar academias pelo nome;
-- [ ] Deve ser possível o usuário realizar check-in em uma academia;
+- [x] Deve ser possível o usuário realizar check-in em uma academia;
 - [ ] Deve ser possível validar o check-in de um usuário;
 - [ ] Deve ser possível cadastrar uma academia;
 
@@ -134,3 +134,11 @@ cada teste deve ser unico e nao aproveitar o outro
 factore pattern: irei usar onde preciso fazer instancias de classes. Para não ficar instanciando em varios arquivos a mesma instancia. Ela não tem regra de negocio.
 
 facade pattern
+
+TDD - Test Driven Development
+
+- red, green, refactor
+
+Vitest mock
+
+ao trabalhar com datas é bom usar mock
